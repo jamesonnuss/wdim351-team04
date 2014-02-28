@@ -7758,8 +7758,237 @@ th.hide-for-touch {
 }
 
 /* Please place any variables you make here */
-/* All Wireframe Styles for Hollywood Fitness Go Here */
-/*For Orginizational purposes please provide comments */
+/* line 1, ../scss/_header.scss */
+header {
+  background: #cfcfcf;
+  color: #434343;
+  padding: 20px;
+  height: 90px;
+}
+/* line 6, ../scss/_header.scss */
+header .hollywood--fitness--logo {
+  background: #9e9e9e;
+  width: 125px;
+  height: 60px;
+}
+/* line 11, ../scss/_header.scss */
+header .hollywood--fitness--logo__link {
+  color: #434343;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 6px;
+  padding: 35px;
+}
+/* line 19, ../scss/_header.scss */
+header .main--navigation ul {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding-top: 10px;
+}
+/* line 24, ../scss/_header.scss */
+header .main--navigation ul li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 29, ../scss/_header.scss */
+header .main--navigation ul a {
+  color: #434343;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* line 33, ../scss/_header.scss */
+header .main--navigation ul a:hover {
+  color: #aaa;
+  outline: none;
+}
+
+/* line 40, ../scss/_header.scss */
+.active {
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 3px;
+}
+
+/* line 1, ../scss/_footer.scss */
+.footer--section {
+  background: #474747;
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
+/* line 6, ../scss/_footer.scss */
+.footer--section ul {
+  padding-top: 10px;
+  margin-left: 0px;
+}
+/* line 10, ../scss/_footer.scss */
+.footer--section li {
+  list-style-type: none;
+}
+/* line 13, ../scss/_footer.scss */
+.footer--section h5 {
+  padding-top: 10px;
+  color: #fff;
+}
+
+/* line 20, ../scss/_footer.scss */
+.footer--section--social .footer--section--social__icons {
+  background: #d7d7d7;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px 25px;
+  -moz-border-radius: 25px / 25px;
+  border-radius: 25px / 25px;
+  margin-top: 50px;
+  float: right;
+}
+
+/* line 1, ../scss/_homepage.scss */
+.homepage--image--slider {
+  background: #cfcfcf;
+  color: #434343;
+  height: 450px;
+  width: 100%;
+}
+
+/* line 7, ../scss/_homepage.scss */
+.homepage--image--slider__content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* line 11, ../scss/_homepage.scss */
+.homepage--about--section {
+  background: #7a7a7a;
+  color: #fff;
+  height: 325px;
+  width: 100%;
+}
+
+/* line 17, ../scss/_homepage.scss */
+.homepage--about--section__content {
+  text-align: center;
+  padding-top: 100px;
+}
+/* line 20, ../scss/_homepage.scss */
+.homepage--about--section__content h3 {
+  color: #fff;
+}
+
+/* line 24, ../scss/_homepage.scss */
+.homepage--information--section {
+  padding-top: 50px;
+}
+/* line 26, ../scss/_homepage.scss */
+.homepage--information--section h4 {
+  color: #434343;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/* line 32, ../scss/_homepage.scss */
+.homepage--information--section--fitness__padding {
+  padding-bottom: 50px;
+}
+
+/* line 35, ../scss/_homepage.scss */
+.homepage--information--section--local__icon, .homepage--information--section--fitness__icon, .homepage--information--section--community__icon {
+  background: #fff;
+  border: 3px solid #cfcfcf;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px 50px;
+  -moz-border-radius: 50px / 50px;
+  border-radius: 50px / 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* line 44, ../scss/_homepage.scss */
+p.homepage--information--section--local__icon-text, p.homepage--information--section--community__icon-text, p.homepage--information--section--fitness__icon-text {
+  position: relative;
+  margin-top: 25px;
+  font-size: 1.75rem;
+  color: #ccc;
+}
+
+/* line 50, ../scss/_homepage.scss */
+.homepage--information--section--local__image, .homepage--information--section--community__image, .homepage--information--section--fitness__image {
+  background: #cfcfcf;
+  width: 100%;
+  height: 300px;
+}
+/* line 54, ../scss/_homepage.scss */
+.homepage--information--section--local__image h4, .homepage--information--section--community__image h4, .homepage--information--section--fitness__image h4 {
+  position: relative;
+  top: 125px;
+  left: 0px;
+  color: #fff;
+}
+
+/* line 61, ../scss/_homepage.scss */
+.homepage--review--section {
+  background: #eaeaea;
+}
+
+/* line 64, ../scss/_homepage.scss */
+.homepage--plan--section {
+  background: #cbcbcb;
+}
+
+/* line 67, ../scss/_homepage.scss */
+.homepage--contact--section {
+  background: #fefefe;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* line 71, ../scss/_homepage.scss */
+.homepage--contact--section h4 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* line 75, ../scss/_homepage.scss */
+.homepage--contact--section .button {
+  float: right;
+}
+/* line 78, ../scss/_homepage.scss */
+.homepage--contact--section input[type="text"], .homepage--contact--section textarea {
+  background: #e0e0e0;
+  color: #474747;
+  font-size: 1.125rem;
+}
+
+/* line 84, ../scss/_homepage.scss */
+.homepage--information--section__rates {
+  text-align: center;
+}
+
+/* line 88, ../scss/_homepage.scss */
+.homepage--map--section {
+  background: #2c2c2c;
+}
+
+/* line 91, ../scss/_homepage.scss */
+.homepage--map--section__image {
+  width: 100%;
+}
+
+/* line 1, ../scss/_rates.scss */
+.rates--information--section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 5, ../scss/_rates.scss */
+ul {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+/* All Basic Page Styles for Hollywood Fitness Wireframes Go Here */
+/*For Orginizational purposes please create a new SCSS file for each wireframed page, If you have any questions please ask me on Google Plus */
 /* line 5, ../scss/_style.scss */
 h1, h2, h3 {
   color: #434343;
@@ -7773,129 +8002,4 @@ h1, h2, h3 {
 /* line 12, ../scss/_style.scss */
 .button:hover {
   background: #434343;
-}
-
-/* line 16, ../scss/_style.scss */
-header {
-  background: #cfcfcf;
-  color: #434343;
-  padding: 20px;
-  height: 90px;
-  border-bottom: 1px solid #fff;
-}
-/* line 22, ../scss/_style.scss */
-header .hollywood--fitness--logo {
-  background: #9e9e9e;
-  width: 125px;
-  height: 60px;
-}
-/* line 27, ../scss/_style.scss */
-header .hollywood--fitness--logo__link {
-  color: #434343;
-  font-weight: bold;
-  position: relative;
-  top: 20px;
-  left: 6px;
-  padding: 35px;
-}
-/* line 35, ../scss/_style.scss */
-header .main--navigation ul {
-  list-style-type: none;
-  display: inline;
-  float: right;
-  padding-top: 10px;
-}
-/* line 40, ../scss/_style.scss */
-header .main--navigation ul li {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-/* line 45, ../scss/_style.scss */
-header .main--navigation ul a {
-  color: #434343;
-  font-weight: 600;
-  font-size: 16px;
-}
-/* line 49, ../scss/_style.scss */
-header .main--navigation ul a:hover {
-  color: #aaa;
-  outline: none;
-}
-
-/* line 57, ../scss/_style.scss */
-.homepage--image--slider {
-  background: #cfcfcf;
-  color: #434343;
-  height: 450px;
-  width: 100%;
-}
-
-/* line 63, ../scss/_style.scss */
-.homepage--image--slider__content {
-  text-align: center;
-  padding-top: 100px;
-}
-
-/* line 67, ../scss/_style.scss */
-.homepage--about--section {
-  background: #7a7a7a;
-  color: #fff;
-  height: 325px;
-  width: 100%;
-}
-
-/* line 73, ../scss/_style.scss */
-.homepage--about--section__content {
-  text-align: center;
-  padding-top: 100px;
-}
-/* line 76, ../scss/_style.scss */
-.homepage--about--section__content h3 {
-  color: #fff;
-}
-
-/* line 80, ../scss/_style.scss */
-.homepage--information--section {
-  padding-top: 50px;
-}
-
-/* line 83, ../scss/_style.scss */
-.homepage--information--section--local__icon, .homepage--information--section--fitness__icon, .homepage--information--section--community__icon {
-  background: #fff;
-  border: 3px solid #cfcfcf;
-  width: 100px;
-  height: 100px;
-  -webkit-border-radius: 50px 50px;
-  -moz-border-radius: 50px / 50px;
-  border-radius: 50px / 50px;
-  margin-top: 100px;
-  text-align: center;
-}
-
-/* line 92, ../scss/_style.scss */
-p.homepage--information--section--local__icon-text, p.homepage--information--section--community__icon-text, p.homepage--information--section--fitness__icon-text {
-  position: relative;
-  margin-top: 25px;
-  font-size: 1.75rem;
-  color: #ccc;
-}
-
-/* line 98, ../scss/_style.scss */
-.homepage--information--section--local__image, .homepage--information--section--community__image, .homepage--information--section--fitness__image {
-  background: #cfcfcf;
-  width: 100%;
-  height: 300px;
-}
-/* line 102, ../scss/_style.scss */
-.homepage--information--section--local__image h4, .homepage--information--section--community__image h4, .homepage--information--section--fitness__image h4 {
-  position: relative;
-  top: 125px;
-  left: 150px;
-  color: #fff;
-}
-
-/* line 109, ../scss/_style.scss */
-.review--section {
-  background: #cbcbcb;
 }

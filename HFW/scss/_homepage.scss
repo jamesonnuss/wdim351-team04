@@ -1,0 +1,93 @@
+.homepage--image--slider{
+	background:$header--background;
+	color:$header--text;
+	height:450px;
+	width:100%;
+}
+.homepage--image--slider__content{
+	text-align:center;
+	padding-top:100px;
+}
+.homepage--about--section{
+	background:$div--box__2;
+	color:#fff;
+	height:325px;
+	width:100%;
+}
+.homepage--about--section__content{
+	text-align:center;
+	padding-top:100px;
+	h3{
+		color:#fff;
+	}
+}
+.homepage--information--section{
+	padding-top:50px;
+	h4{
+		color:$header--text;
+		text-align: center;
+		padding-bottom:15px;
+	}
+}
+.homepage--information--section--fitness__padding{
+	padding-bottom:50px;
+}
+.homepage--information--section--local__icon, .homepage--information--section--fitness__icon, .homepage--information--section--community__icon{
+	background:#fff;
+	border:3px solid $header--background;
+	width:100px;
+	height:100px;
+	@include border-radius(50px, 50px);
+	margin-top:100px;
+	text-align:center;
+}
+p.homepage--information--section--local__icon-text,p.homepage--information--section--community__icon-text,p.homepage--information--section--fitness__icon-text{
+	position:relative;
+	margin-top:25px;
+	font-size:rem-calc(28);
+	color:#ccc;
+}
+.homepage--information--section--local__image, .homepage--information--section--community__image, .homepage--information--section--fitness__image{
+	background:$header--background;
+	width:100%;
+	height:300px;
+	h4{
+		position:relative;
+		top:125px;
+		left:0px;
+		color:#fff;
+	}
+}
+.homepage--review--section{
+	background:#eaeaea;
+}
+.homepage--plan--section{
+	background:#cbcbcb;
+}
+.homepage--contact--section{
+	background:#fefefe;
+	padding-top:50px;
+	padding-bottom:50px;
+	h4{
+		text-align: center;
+		padding-bottom:20px;
+	}
+	.button{
+		float:right;
+	}
+	input[type="text"],textarea{
+		background:#e0e0e0;
+		color:#474747;
+		font-size:rem-calc(18);
+	}
+}
+.homepage--information--section__rates{
+	text-align:center;
+}
+
+.homepage--map--section{
+	background:#2c2c2c;
+}
+.homepage--map--section__image{
+	width:100%;
+}

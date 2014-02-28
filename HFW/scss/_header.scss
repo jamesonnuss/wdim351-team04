@@ -1,0 +1,43 @@
+header{
+	background:$header--background;
+	color:$header--text;
+	padding:20px;
+	height:90px;
+	.hollywood--fitness--logo{
+		background:$div--box__1;
+		width:125px;
+		height:60px;
+	}
+	.hollywood--fitness--logo__link{
+		color:$header--text;
+		font-weight:bold;
+		position:relative;
+		top:20px;
+		left:6px;
+		padding:35px;
+	}
+	.main--navigation ul{
+		list-style-type:none;
+		display:inline;
+		float:right;
+		padding-top:10px;
+		li{
+			float:left;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		a{
+			color:$header--text;
+			font-weight:600;
+			font-size:16px;
+			&:hover{
+				color:#aaa;
+				outline: none;
+			}
+		} 
+	}
+}
+.active{
+	border-bottom:2px solid #aaa;
+	padding-bottom:3px;
+}
