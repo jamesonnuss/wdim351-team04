@@ -7811,6 +7811,15 @@ header .main--navigation ul a:hover {
   padding-bottom: 3px;
 }
 
+/* line 45, ../scss/_header.scss */
+nav.tab-bar {
+  background: #777777;
+  color: white;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  position: relative;
+}
+
 /* line 1, ../scss/_footer.scss */
 .footer--section {
   background: #474747;
@@ -8002,4 +8011,11 @@ h1, h2, h3 {
 /* line 12, ../scss/_style.scss */
 .button:hover {
   background: #434343;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  /* line 4, ../scss/tablet.scss */
+  .homepage--information--section--local__icon, .homepage--information--section--fitness__icon, .homepage--information--section--community__icon {
+    display: none;
+  }
 }
