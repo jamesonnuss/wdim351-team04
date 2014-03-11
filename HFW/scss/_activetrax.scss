@@ -1,0 +1,31 @@
+.wrapper {
+	width: 1020px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.column {
+	width: 500px;
+	float: left;
+}
+
+.trainer--quote {
+	text-align: center;
+}
+
+.quotation--mark {
+	width: 75px;
+}
+
+.trainer--profile--picture__icons{
+	background:#d7d7d7;
+	width:125px;
+	height:125px;
+	@include border-radius(100px, 100px);
+	margin-top:25px;
+	margin-right: 10px;
+	float:left;
+	}
+
+
+

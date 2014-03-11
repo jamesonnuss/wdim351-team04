@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 259, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.1.0/";
@@ -7985,6 +7986,47 @@ p.homepage--information--section--local__icon-text, p.homepage--information--sec
 ul {
   list-style-type: none;
   margin-left: 0px;
+}
+
+/* line 1, ../scss/_activetrax.scss */
+.wrapper {
+  width: 1020px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* line 7, ../scss/_activetrax.scss */
+.column {
+  width: 500px;
+  float: left;
+}
+
+/* line 12, ../scss/_activetrax.scss */
+.trainer--quote {
+  text-align: center;
+}
+
+/* line 16, ../scss/_activetrax.scss */
+.quotation--mark {
+  width: 75px;
+}
+
+/* line 20, ../scss/_activetrax.scss */
+.trainer--profile--picture__icons {
+  background: #d7d7d7;
+  width: 125px;
+  height: 125px;
+  -webkit-border-radius: 100px 100px;
+  -moz-border-radius: 100px / 100px;
+  border-radius: 100px / 100px;
+  margin-top: 25px;
+  margin-right: 10px;
+  float: left;
+}
+
+/* line 1, ../scss/_contact.scss */
+.contact--form--message {
+  height: 100px;
 }
 
 /* All Basic Page Styles for Hollywood Fitness Wireframes Go Here */
