@@ -8,6 +8,28 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+  <div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar hide-for-medium-up">
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+<aside class="right-off-canvas-menu">
+  <ul class="off-canvas-list">
+    <li><label>Navigation</label></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li><a href="activtrax.html">ActiveTrax</a></li>
+      <li><a href="personal-training.html">Personal Training</a></li>
+      <li><a href="calender.html">Calender</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+</aside>
+
+<section class="main-section">
   <header>
   <div class="row">
     <div class="medium-3 small-3 columns">
@@ -15,7 +37,7 @@
       </div>
     </div>
     <div class="medium-9 small-9 columns">
-      <div class="main--navigation">
+      <div class="main--navigation nav hide-for-small">
         <ul>
           <li><a href="rates.html">Rates</a></li>
           <li><a href="activtrax.html">ActiveTrax</a></li>
@@ -29,37 +51,38 @@
     </div>
   </div>
 </header>
-<div class="wrapper">
-	<h4>Contact the gym</h4>
-	<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
-	 <form>
-      <div class="row">
-        <div class="large-6 columns">
-          <input type="text" placeholder="First Name" />
-        </div>
-        <div class="large-6 columns">
-          <input type="text" placeholder="Last Name" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-6 medium-6 columns">
-          <input type="text" placeholder="Phone" />
-        </div>
-        <div class="large-6 medium-6 columns">
-          <input type="text" placeholder="Email" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <textarea placeholder="Message" class="contact--form--message"></textarea>
-        </div>
-          <div class="medium-4 columns">
-            <a href="#" class="small round button">Submit</a>
+  <div class="row">
+    <div class="large-12 columns">
+    	<h4>Contact the gym</h4>
+    	<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
+    </div>
+  </div>
+    	 <form>
+          <div class="row">
+            <div class="large-6 columns">
+              <input type="text" placeholder="First Name" />
+            </div>
+            <div class="large-6 columns">
+              <input type="text" placeholder="Last Name" />
+            </div>
           </div>
-      </div>
-    </form>
-
-</div>
+          <div class="row">
+            <div class="large-6 medium-6 columns">
+              <input type="text" placeholder="Phone" />
+            </div>
+            <div class="large-6 medium-6 columns">
+              <input type="text" placeholder="Email" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns">
+              <textarea placeholder="Message" class="contact--form--message"></textarea>
+            </div>
+              <div class="medium-4 columns">
+                <a href="#" class="small round button">Submit</a>
+              </div>
+          </div>
+        </form>
 
 
 
@@ -86,8 +109,8 @@
       </div>
     </div>
 </footer>
-
-
+</section>
+<a class="exit-off-canvas"></a>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 259, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.1.0/";
@@ -7998,29 +7997,23 @@ ul {
 }
 
 /* line 1, ../scss/_activetrax.scss */
-.wrapper {
-  width: 1020px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-
-/* line 7, ../scss/_activetrax.scss */
 .column {
   width: 500px;
   float: left;
 }
 
-/* line 12, ../scss/_activetrax.scss */
+/* line 6, ../scss/_activetrax.scss */
 .trainer--quote {
   text-align: center;
+  margin-top: 50px;
 }
 
-/* line 16, ../scss/_activetrax.scss */
+/* line 11, ../scss/_activetrax.scss */
 .quotation--mark {
   width: 75px;
 }
 
-/* line 20, ../scss/_activetrax.scss */
+/* line 15, ../scss/_activetrax.scss */
 .trainer--profile--picture__icons {
   background: #d7d7d7;
   width: 125px;
@@ -8031,6 +8024,7 @@ ul {
   margin-top: 25px;
   margin-right: 10px;
   float: left;
+  padding-bottom: 25px;
 }
 
 /* line 1, ../scss/_contact.scss */
@@ -8055,8 +8049,8 @@ h1, h2, h3 {
   background: #434343;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 600px) {
-  /* line 4, ../scss/tablet.scss */
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+  /* line 3, ../scss/tablet.scss */
   .homepage--information--section--local__icon, .homepage--information--section--fitness__icon, .homepage--information--section--community__icon {
     display: none;
   }

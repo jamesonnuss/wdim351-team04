@@ -8,6 +8,29 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
+  <div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar hide-for-medium-up">
+      <section class="right-small">
+        <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+    </nav>
+
+<aside class="right-off-canvas-menu">
+  <ul class="off-canvas-list">
+    <li><label>Navigation</label></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li><a href="activtrax.html">ActiveTrax</a></li>
+      <li><a href="personal-training.html">Personal Training</a></li>
+      <li><a href="calender.html">Calender</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul>
+</aside>
+
+<section class="main-section">
+
   <header>
   <div class="row">
     <div class="medium-3 small-3 columns">
@@ -15,7 +38,7 @@
       </div>
     </div>
     <div class="medium-9 small-9 columns">
-      <div class="main--navigation">
+      <div class="main--navigation nav hide-for-small">
         <ul>
           <li><a href="rates.html">Rates</a></li>
           <li><a href="activtrax.html">ActiveTrax</a></li>
@@ -29,24 +52,27 @@
     </div>
   </div>
 </header>
-<div class="wrapper">
-	<div class="column activetrax--information">
-		<div class="activetrax--about">
-		<h3>ActiveTrax</h3>
-		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
-		
-		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
-		
-		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
-		</div>	
-		
-		<div class="activetrax--plan--fitness--information">
-		<h4>Plan your fitness</h4>
-		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
-		</div>	
-	</div>
+<div class="row">
+  <div class="large-6 columns">
+  	<div class="activetrax--information">
+  		<div class="activetrax--about">
+  		<h3>ActiveTrax</h3>
+  		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
+  		
+  		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
+  		
+  		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
+  		</div>	
+  		
+  		<div class="activetrax--plan--fitness--information">
+  		<h4>Plan your fitness</h4>
+  		<p>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto, ribeye pancetta pastrami brisket chicken. Bresaola ham leberkas ground round beef shank strip steak shankle hamburger. Shoulder beef ribs kielbasa, salami short ribs ball tip turkey tongue.</p>
+  		</div>	
+  	</div>
+  </div>
 	
-	<div class="column activetrax--trainer--profile">
+  <div class="large-6 columns">
+	<div class="activetrax--trainer--profile">
 		<div class="trainer--quote">
 		<p><span class="quotation--mark">"</span>Chuck brisket pork, turducken biltong t-bone cow turkey shoulder ribeye andouille. Frankfurter meatloaf prosciutto.</p>
 		</div>
@@ -61,6 +87,7 @@
 		</ul>
 		</div>
 	</div>
+</div>
 </div>
 
 <footer>
@@ -86,7 +113,9 @@
       </div>
     </div>
 </footer>
+</section>
 
+<a class="exit-off-canvas"></a>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
