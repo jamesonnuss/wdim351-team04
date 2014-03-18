@@ -9576,8 +9576,3 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important;
 }
-
-/* line 1, _james.scss */
-body {
-  background: red;
-}
