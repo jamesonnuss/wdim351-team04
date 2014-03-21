@@ -9631,3 +9631,8 @@ a {
 a:hover {
   color: #fc2221;
 }
+
+/* line 164, style.scss */
+.hero-image {
+  margin-top: -200px;
+}
