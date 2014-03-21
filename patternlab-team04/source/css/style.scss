@@ -125,9 +125,26 @@ body{
 }
 header{
 	color:#f2f2f2;
+	z-index:1000;
 }
 .header{
 	padding-top:20px;
+	z-index:1000;
+	ul{
+		display:block;
+		list-style-type:none;
+		float:right;
+		margin-top:20px;
+	}
+	li{
+		float:left;
+		padding-left:8px;
+		padding-right:8px;
+
+	}
+	li:last-child{
+		padding-right:0px;
+	}
 }
 .logo{
 	width:220px;
@@ -135,21 +152,7 @@ header{
 .nav-toggle{
 	display:none !important;
 }
-ul{
-	display:block;
-	list-style-type:none;
-	float:right;
-	margin-top:20px;
-}
-li{
-	float:left;
-	padding-left:8px;
-	padding-right:8px;
 
-}
-li:last-child{
-	padding-right:0px;
-}
 a{
 	color:#fff;
 	text-transform:uppercase;

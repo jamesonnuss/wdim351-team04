@@ -9585,50 +9585,49 @@ body {
 /* line 126, style.scss */
 header {
   color: #f2f2f2;
+  z-index: 1000;
 }
 
-/* line 129, style.scss */
+/* line 130, style.scss */
 .header {
   padding-top: 20px;
+  z-index: 1000;
 }
-
-/* line 132, style.scss */
-.logo {
-  width: 220px;
-}
-
-/* line 135, style.scss */
-.nav-toggle {
-  display: none !important;
-}
-
-/* line 138, style.scss */
-ul {
+/* line 133, style.scss */
+.header ul {
   display: block;
   list-style-type: none;
   float: right;
   margin-top: 20px;
 }
-
-/* line 144, style.scss */
-li {
+/* line 139, style.scss */
+.header li {
   float: left;
   padding-left: 8px;
   padding-right: 8px;
 }
-
-/* line 150, style.scss */
-li:last-child {
+/* line 145, style.scss */
+.header li:last-child {
   padding-right: 0px;
 }
 
-/* line 153, style.scss */
+/* line 149, style.scss */
+.logo {
+  width: 220px;
+}
+
+/* line 152, style.scss */
+.nav-toggle {
+  display: none !important;
+}
+
+/* line 156, style.scss */
 a {
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
 }
-/* line 157, style.scss */
+/* line 160, style.scss */
 a:hover {
   color: #fc2221;
 }
