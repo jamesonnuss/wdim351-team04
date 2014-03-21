@@ -9576,3 +9576,59 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important;
 }
+
+/* line 123, style.scss */
+body {
+  background: #f2f2f2;
+}
+
+/* line 126, style.scss */
+header {
+  color: #f2f2f2;
+}
+
+/* line 129, style.scss */
+.header {
+  padding-top: 20px;
+}
+
+/* line 132, style.scss */
+.logo {
+  width: 220px;
+}
+
+/* line 135, style.scss */
+.nav-toggle {
+  display: none !important;
+}
+
+/* line 138, style.scss */
+ul {
+  display: block;
+  list-style-type: none;
+  float: right;
+  margin-top: 20px;
+}
+
+/* line 144, style.scss */
+li {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* line 150, style.scss */
+li:last-child {
+  padding-right: 0px;
+}
+
+/* line 153, style.scss */
+a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* line 157, style.scss */
+a:hover {
+  color: #fc2221;
+}

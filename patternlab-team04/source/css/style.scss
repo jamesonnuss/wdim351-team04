@@ -119,3 +119,42 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 
 @import "scss/settings";
 @import "foundation";
+$logoRed:#fc2221;
+body{
+	background:#f2f2f2;
+}
+header{
+	color:#f2f2f2;
+}
+.header{
+	padding-top:20px;
+}
+.logo{
+	width:220px;
+}
+.nav-toggle{
+	display:none !important;
+}
+ul{
+	display:block;
+	list-style-type:none;
+	float:right;
+	margin-top:20px;
+}
+li{
+	float:left;
+	padding-left:8px;
+	padding-right:8px;
+
+}
+li:last-child{
+	padding-right:0px;
+}
+a{
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	&:hover{
+		color:$logoRed;
+	}
+}
