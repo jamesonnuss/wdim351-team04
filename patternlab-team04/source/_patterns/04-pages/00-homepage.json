@@ -9,10 +9,21 @@
 					"src": "../../images/bridge.jpg",
 					"alt": "Gym Hero Image"
 				}
-			},
-			"headline" : {
-				"medium" : "Your Gym"
 			}
+		}
+	],
+	"touts": [
+		{
+			"headline": "<h2>About Hollywood Fitness</h2>",
+			"text": "sdfokdjgkjsdnfjgksdkfjgksjdfgkjsdfjgk"
+		},
+		{
+			"headline": "<h2>I dont Understand</h2>",
+			"text": "ldskjfsdlkfjdslkjfdslkjflsdjl"
+		},
+		{
+			"headline": "<h2>I dont Understand</h2>",
+			"text": "ldskjfsdlkfjdslkjfdslkjflsdjl"
 		}
 	]
 }

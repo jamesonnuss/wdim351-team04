@@ -1,15 +1,26 @@
 &lt;div class=&quot;page row&quot; id=&quot;page&quot;&gt;
 	&lt;div class=&quot;large-12 columns&quot;&gt;
-	{{&gt; organisms-header }}
+		{{&gt; organisms-header }}
 	&lt;/div&gt;
-	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;&quot;&gt;
 	{{# hero }}
 	{{&gt; molecules-block-hero }}
 	{{/ hero}}
-	
-		&lt;hr /&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;large-12 columns&quot;&gt;
+			&lt;h1&gt;Your Gym&lt;/h1&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;	
+&lt;/div&gt;
 
-		
+{{&gt; organisms-tout-list }}
+
+{{# touts}}
+	&lt;p&gt;hello world: {{{headline}}}&lt;/p&gt;
+{{/ touts}}
+	
 &lt;/div&gt;
 	{{&gt; organisms-footer }}
 &lt;/div&gt;

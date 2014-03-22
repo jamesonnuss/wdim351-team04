@@ -1,15 +1,26 @@
 <div class="page row" id="page">
 	<div class="large-12 columns">
-	{{> organisms-header }}
+		{{> organisms-header }}
 	</div>
-	</div>
+</div>
+
+<div class="">
 	{{# hero }}
 	{{> molecules-block-hero }}
 	{{/ hero}}
-	
-		<hr />
+	<div class="row">
+		<div class="large-12 columns">
+			<h1>Your Gym</h1>
+		</div>
+	</div>	
+</div>
 
-		
+{{> organisms-tout-list }}
+
+{{# touts}}
+	<p>hello world: {{{headline}}}</p>
+{{/ touts}}
+	
 </div>
 	{{> organisms-footer }}
 </div>
