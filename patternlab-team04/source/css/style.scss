@@ -162,5 +162,29 @@ a{
 	}
 }
 .hero-image{
-	margin-top:-200px;
+	margin-top:-100px;
+	width:100%;
+}
+.slide{
+	background:#eb5036;
+}
+.tout-left{
+	background:#f5f7fb;
+}
+.tout-right{
+	background:#f5f7fb;
+}
+.tout-full{
+	height:360px;
+	background:#e1e7f1;
+}
+ul.slides{
+	list-style-type:none;
+	border-left:1px solid #fff;
+	float:right;
+	height:100%;
+	padding-left:10px;
+	li{
+		color:#fff;
+	}
 }

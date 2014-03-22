@@ -6,21 +6,30 @@
 
 <div class="">
 	{{# hero }}
-	{{> molecules-block-hero }}
+		{{> molecules-block-hero }}
 	{{/ hero}}
-	<div class="row">
-		<div class="large-12 columns">
-			<h1>Your Gym</h1>
-		</div>
-	</div>	
-</div>
 
-{{> organisms-tout-list }}
 
-{{# touts}}
-	<p>hello world: {{{headline}}}</p>
-{{/ touts}}
-	
+{{# slide}}
+	{{> molecules-slide}}
+{{/ slide}}
+
+{{# tout-full}}
+	{{> molecules-tout-full}}
+{{/ tout-full}}
+
+{{# tout-left}}
+	{{> molecules-tout-left}}
+{{/ tout-left}}
+
+{{# tout-full}}
+	{{> molecules-tout-full}}
+{{/ tout-full}}
+
+{{# tout-right}}
+	{{> molecules-tout-right}}
+{{/ tout-right}}
+
 </div>
 	{{> organisms-footer }}
 </div>

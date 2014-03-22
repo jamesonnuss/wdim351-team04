@@ -6,24 +6,52 @@
 		{
 			"img": {
 				"landscape-16x9": {
-					"src": "../../images/bridge.jpg",
+					"src": "../../images/hero_new.png",
 					"alt": "Gym Hero Image"
 				}
 			}
 		}
 	],
-	"touts": [
-		{
-			"headline": "<h2>About Hollywood Fitness</h2>",
-			"text": "sdfokdjgkjsdnfjgksdkfjgksjdfgkjsdfjgk"
+	"slide": {
+		"headline": {
+			"short" : "Your Gym"
 		},
-		{
-			"headline": "<h2>I dont Understand</h2>",
-			"text": "ldskjfsdlkfjdslkjfdslkjflsdjl"
-		},
-		{
-			"headline": "<h2>I dont Understand</h2>",
-			"text": "ldskjfsdlkfjdslkjfdslkjflsdjl"
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
 		}
-	]
+	},
+	"tout-full": {
+		"headline": {
+			"short" : "About Hollywood Fitness"
+		},
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
+		}
+	},
+	"tout-left": {
+		"img" : {
+			"square": {
+				"src": "../../images/community.png"
+			}
+		},
+		"headline": {
+			"short" : "Community"
+		},
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
+		}
+	},
+	"tout-right" : {
+		"img": {
+			"square": {
+				"src": "../../images/fitness.png"				
+			}
+		},
+		"headline": {
+			"short" : "Fitness"
+		},
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
+		}
+	}
 }

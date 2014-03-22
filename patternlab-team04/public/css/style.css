@@ -9634,5 +9634,40 @@ a:hover {
 
 /* line 164, style.scss */
 .hero-image {
-  margin-top: -200px;
+  margin-top: -100px;
+  width: 100%;
+}
+
+/* line 168, style.scss */
+.slide {
+  background: #eb5036;
+}
+
+/* line 171, style.scss */
+.tout-left {
+  background: #f5f7fb;
+}
+
+/* line 174, style.scss */
+.tout-right {
+  background: #f5f7fb;
+}
+
+/* line 177, style.scss */
+.tout-full {
+  height: 360px;
+  background: #e1e7f1;
+}
+
+/* line 181, style.scss */
+ul.slides {
+  list-style-type: none;
+  border-left: 1px solid #fff;
+  float: right;
+  height: 100%;
+  padding-left: 10px;
+}
+/* line 187, style.scss */
+ul.slides li {
+  color: #fff;
 }
