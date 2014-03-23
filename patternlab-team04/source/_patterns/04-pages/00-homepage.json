@@ -20,7 +20,7 @@
 			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
 		}
 	},
-	"tout-full": {
+	"tout-full-first": {
 		"headline": {
 			"short" : "About Hollywood Fitness"
 		},
@@ -36,6 +36,14 @@
 		},
 		"headline": {
 			"short" : "Community"
+		},
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
+		}
+	},
+	"tout-full-second": {
+		"headline": {
+			"short" : "Local"
 		},
 		"excerpt": {
 			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
