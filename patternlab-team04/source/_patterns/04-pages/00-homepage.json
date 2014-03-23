@@ -49,14 +49,37 @@
 			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
 		}
 	},
-	"tout-right" : {
-		"img": {
+	"tout-right": {
+		"img" : {
 			"square": {
-				"src": "../../images/fitness.png"				
+				"src": "../../images/fitness.png"
 			}
 		},
 		"headline": {
 			"short" : "Fitness"
+		},
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
+		}
+	},
+	"tout-right-quote" : {
+		"img": {
+			"square": {
+				"src": "../../images/jason.png"				
+			}
+		},
+		"headline": {
+			"short" : "Jason Fahlman",
+			"medium" : "Member Since 2009"
+		},
+		"excerpt": {
+			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."
+		}
+	},
+	"tout-membership" : {
+		"headline": {
+			"short" : "Basic Plan",
+			"medium": "Premium Plan"
 		},
 		"excerpt": {
 			"short" : "Short ribs strip steak hamburger rump turducken swine biltong cow leberkas pig. Fatback sausage pig, capicola short loin venison tongue swine. Ribeye sausage turducken brisket cow t-bone."

@@ -4,31 +4,46 @@
 	</div>
 </div>
 
-<div class="">
+<div class="container">
+
 	{{# hero }}
 		{{> molecules-block-hero }}
 	{{/ hero}}
 
+	{{# slide}}
+		{{> molecules-slide}}
+	{{/ slide}}
 
-{{# slide}}
-	{{> molecules-slide}}
-{{/ slide}}
+	{{# tout-full-first }}
+	  {{> molecules-tout-full }}
+	{{/ tout-full-first }}
 
-{{# tout-full-first }}
-  {{> molecules-tout-full }}
-{{/ tout-full-first }}
+	{{# tout-left}}
+		{{> molecules-tout-left}}
+	{{/ tout-left}}
 
-{{# tout-left}}
-	{{> molecules-tout-left}}
-{{/ tout-left}}
+	{{# tout-full-second }}
+		{{> molecules-tout-full }}
+	{{/ tout-full-second }}
 
-{{# tout-full-second }}
-	{{> molecules-tout-full }}
-{{/ tout-full-second }}
+	{{# tout-right}}
+		{{> molecules-tout-right}}
+	{{/ tout-right}}
 
-{{# tout-right}}
-	{{> molecules-tout-right}}
-{{/ tout-right}}
+	{{# tout-right-quote}}
+		{{> molecules-tout-right-quote}}
+	{{/ tout-right-quote}}
+
+	{{# tout-membership}}
+		{{> molecules-tout-membership}}
+	{{/ tout-membership}}
+
+	{{> molecules-contact }}
+
+
+
+
+{{}}
 
 </div>
 	{{> organisms-footer }}

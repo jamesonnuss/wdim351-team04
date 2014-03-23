@@ -4,31 +4,46 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class=&quot;&quot;&gt;
+&lt;div class=&quot;container&quot;&gt;
+
 	{{# hero }}
 		{{&gt; molecules-block-hero }}
 	{{/ hero}}
 
+	{{# slide}}
+		{{&gt; molecules-slide}}
+	{{/ slide}}
 
-{{# slide}}
-	{{&gt; molecules-slide}}
-{{/ slide}}
+	{{# tout-full-first }}
+	  {{&gt; molecules-tout-full }}
+	{{/ tout-full-first }}
 
-{{# tout-full.second}}
-	{{&gt; molecules-tout-full}}
-{{/ tout-full.second }}
+	{{# tout-left}}
+		{{&gt; molecules-tout-left}}
+	{{/ tout-left}}
 
-{{# tout-left}}
-	{{&gt; molecules-tout-left}}
-{{/ tout-left}}
+	{{# tout-full-second }}
+		{{&gt; molecules-tout-full }}
+	{{/ tout-full-second }}
 
-{{# tout-full-second }}
-	{{&gt; molecules-tout-full }}
-{{/ tout-full-second }}
+	{{# tout-right}}
+		{{&gt; molecules-tout-right}}
+	{{/ tout-right}}
 
-{{# tout-right}}
-	{{&gt; molecules-tout-right}}
-{{/ tout-right}}
+	{{# tout-right-quote}}
+		{{&gt; molecules-tout-right-quote}}
+	{{/ tout-right-quote}}
+
+	{{# tout-membership}}
+		{{&gt; molecules-tout-membership}}
+	{{/ tout-membership}}
+
+	{{&gt; molecules-contact }}
+
+
+
+
+{{}}
 
 &lt;/div&gt;
 	{{&gt; organisms-footer }}

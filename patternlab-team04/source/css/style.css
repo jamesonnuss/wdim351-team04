@@ -9654,12 +9654,11 @@ a:hover {
 }
 
 /* line 177, style.scss */
-.tout-full {
+.tout-full:first-child {
   height: 360px;
-  background: #e1e7f1;
 }
 
-/* line 181, style.scss */
+/* line 180, style.scss */
 ul.slides {
   list-style-type: none;
   border-left: 1px solid #fff;
@@ -9667,7 +9666,55 @@ ul.slides {
   height: 100%;
   padding-left: 10px;
 }
-/* line 187, style.scss */
+/* line 186, style.scss */
 ul.slides li {
   color: #fff;
+}
+
+/* line 190, style.scss */
+.touts-img__right {
+  text-align: center;
+}
+
+/* line 193, style.scss */
+.tout-right-quote__info {
+  text-align: center;
+}
+
+/* line 196, style.scss */
+.membership-basic {
+  background: #1f3550;
+  height: 300px;
+}
+
+/* line 200, style.scss */
+.membership-premium {
+  background: #142943;
+  height: 300px;
+}
+
+/* line 204, style.scss */
+footer {
+  background: #f6f8fb;
+  height: 100px;
+  border-bottom: 3px solid orange;
+}
+/* line 208, style.scss */
+footer ul {
+  list-style-type: none;
+  float: left;
+}
+/* line 212, style.scss */
+footer li {
+  display: inline;
+  padding: 7px;
+}
+/* line 215, style.scss */
+footer li a {
+  color: #182e49;
+}
+
+/* line 220, style.scss */
+.contact-section {
+  background: #e2e6ee;
 }

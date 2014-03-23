@@ -174,9 +174,8 @@ a{
 .tout-right{
 	background:#f5f7fb;
 }
-.tout-full{
+.tout-full:first-child{
 	height:360px;
-	background:#e1e7f1;
 }
 ul.slides{
 	list-style-type:none;
@@ -187,4 +186,37 @@ ul.slides{
 	li{
 		color:#fff;
 	}
+}
+.touts-img__right{
+	text-align:center;
+}
+.tout-right-quote__info{
+	text-align:center;
+}
+.membership-basic{
+	background:#1f3550;
+	height:300px;
+}
+.membership-premium{
+	background:#142943;
+	height:300px;
+}
+footer{
+	background:#f6f8fb;
+	height:100px;
+	border-bottom:3px solid orange;
+	ul{
+		list-style-type: none;
+		float:left;
+	}
+	li{
+		display:inline;
+		padding:7px;
+		a{
+			color:#182e49;
+		}
+	}
+}
+.contact-section{
+	background:#e2e6ee;
 }
