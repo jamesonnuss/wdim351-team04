@@ -22,7 +22,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-facebook:before {
   content: "\e800";
   font-size:20px;
